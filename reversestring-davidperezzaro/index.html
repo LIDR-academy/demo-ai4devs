@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse String</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+        }
+        h1 {
+            color: #333;
+        }
+        input[type="text"] {
+            padding: 0.5rem;
+            font-size: 1rem;
+            width: 300px;
+        }
+        .result-container {
+            margin-top: 1rem;
+            display: none;
+        }
+        #reversedText {
+            font-weight: bold;
+        }
+        button {
+            margin-top: 0.5rem;
+            padding: 0.4rem 1rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reverse String Tool</h1>
+    <input type="text" id="inputText" placeholder="Type something...">
+    <div class="result-container" id="resultContainer">
+        <p>Reversed: <span id="reversedText"></span></p>
+        <button id="copyBtn">Copy to Clipboard</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
